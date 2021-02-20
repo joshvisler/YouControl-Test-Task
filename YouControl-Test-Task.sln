@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{2759D06B-2E86-4A17-99AC-210948DC4267}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SockNet", "SockNet\SockNet.csproj", "{4E1060E3-9DF5-4A12-B770-7E796AB53D6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2759D06B-2E86-4A17-99AC-210948DC4267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2759D06B-2E86-4A17-99AC-210948DC4267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2759D06B-2E86-4A17-99AC-210948DC4267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2759D06B-2E86-4A17-99AC-210948DC4267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1060E3-9DF5-4A12-B770-7E796AB53D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1060E3-9DF5-4A12-B770-7E796AB53D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1060E3-9DF5-4A12-B770-7E796AB53D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1060E3-9DF5-4A12-B770-7E796AB53D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6119B91-37C8-46D6-BD59-93587B0FCF68}
+	EndGlobalSection
+EndGlobal

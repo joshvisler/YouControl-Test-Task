@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ApplicationIcon />
+    <Win32Resource />
+    <Authors>PauSabatesC</Authors>
+    <Version>1.1.1</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>The easiest and fastest way to work with sockets in C#</Description>
+    <PackageProjectUrl>https://github.com/PauSabatesC/SockNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/PauSabatesC/SockNet</RepositoryUrl>
+    <PackageTags>socket, c#, easy, tcp, server</PackageTags>
+    <PackageReleaseNotes>Bug fixed dispose methods</PackageReleaseNotes>
+    <PackageReleaseNotes>Stable version.
++solved bug related with multiple connections not disposing correctly.</PackageReleaseNotes>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Projects\SockNet\src\SockNet\SockNet.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+</Project>
